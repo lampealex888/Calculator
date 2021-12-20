@@ -18,7 +18,7 @@ body {
     background-color: #4dc8e9;
     margin: 1.5em 1.5em 3em 1.5em;
     border-radius: 12px;
-    height: 7em;
+    height: 8em;
 }
 
 #last-operation-screen, #current-operation-screen {
@@ -29,21 +29,29 @@ body {
 }
 
 #last-operation-screen {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 #current-operation-screen {
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 .button {
     background-color: #011b56;
     color: #ffffff;
-    font-size: 2em;
-    width: 4em;
-    height: 3em;
+    font-size: 3em;
+    width: 2.5em;
+    height: 2em;
     border-radius: 12px;
     border-color: black;
+}
+
+[data-operator] {
+    background-color: #183270
+}
+
+#clearBtn, #deleteBtn {
+    background-color: #560f01;
 }
 
 #equalsBtn {
