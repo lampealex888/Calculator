@@ -18,20 +18,21 @@ body {
     background-color: #4dc8e9;
     margin: 1.5em 1.5em 3em 1.5em;
     border-radius: 12px;
+    height: 7em;
 }
 
-#display-input, #display-output {
+#last-operation-screen, #current-operation-screen {
     padding: 0;
     margin: 0;
     font-family: Roboto;
     text-align: end;
 }
 
-#display-input {
+#last-operation-screen {
     font-size: 2.5em;
 }
 
-#display-output {
+#current-operation-screen {
     font-size: 3.5em;
 }
 
@@ -45,7 +46,7 @@ body {
     border-color: black;
 }
 
-.big-button {
+#equalsBtn {
     background-color: #fd6a02;
     color: #ffffff;
     font-size: 2em;
