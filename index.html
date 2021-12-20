@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="calculator-container">
+      <div id="display-container">
+        <p id="display-input">100x100</p>
+        <p id="display-output">10,000</p>
+      </div>
+      <div id="button-container">
+        <button type="button" id="all-clear" class="button">AC</button>
+        <button type="button" id="clear" class="button">C</button>
+        <button type="button" id="modulus" class="button" onclick="updateDisplay('%')">%</button>
+        <button type="button" id="divide" class="button" onclick="updateDisplay('÷')">÷</button>
+        <button type="button" id="seven" class="button" onclick="updateDisplay('7')">7</button>
+        <button type="button" id="eight" class="button" onclick="updateDisplay('8')">8</button>
+        <button type="button" id="nine" class="button" onclick="updateDisplay('9')">9</button>
+        <button type="button" id="add" class="button" onclick="updateDisplay('+')">+</button>
+        <button type="button" id="four" class="button" onclick="updateDisplay('4')">4</button>
+        <button type="button" id="five" class="button" onclick="updateDisplay('5')">5</button>
+        <button type="button" id="six" class="button" onclick="updateDisplay('6')">6</button>
+        <button type="button" id="subtract" class="button" onclick="updateDisplay('-')">-</button>
+        <button type="button" id="one" class="button" onclick="updateDisplay('1')">1</button>
+        <button type="button" id="two" class="button" onclick="updateDisplay('2')">2</button>
+        <button type="button" id="three" class="button" onclick="updateDisplay('3')">3</button>
+        <button type="button" id="multiply" class="button" onclick="updateDisplay('x')">x</button>
+        <button type="button" id="zero" class="button" onclick="updateDisplay('0')">0</button>
+        <button type="button" id="decimal" class="button" onclick="updateDisplay('.')">.</button>
+        <button type="button" id="equals" class="big-button">=</button>
+      </div>
+	<script src="js/index.js"></script>
+  </body>
+</html>
